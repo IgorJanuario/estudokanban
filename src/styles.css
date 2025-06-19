@@ -1,0 +1,28 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.board {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.column {
+  width: 30%;
+  min-height: 200px;
+  padding: 0.5rem;
+  background-color: #f3f3f3;
+  border-radius: 4px;
+}
+
+.column h3 {
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 0.5rem;
+}
